@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Seu nome - Portfólio">
+    <meta name="keywords" content="Seu, Nome, Portfólio">
+    <meta name="author" content="Seu Nome">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Seu Nome - Portfólio</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="avatar">
+                <img src="" id="avatar" alt="Fabio Braga">
+            </div>
+            <div class="info-social">
+                <div class="info">
+                    <h1>Fabio Braga</h1>
+                    <p>dotnet Backend Develop</p>
+                </div>
+                <div class="social-icons">
+                    <a id="github" href="#" target="_blank"></a>
+                    <a id="linkedin" href="#" target="_blank"></a>
+                    <a id="whatsapp" href="#" target="_blank"></a>
+                    <a id="telegram" href="#" target="_blank"></a>
+                    <a id="mail" href="#" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="content">
+        <section>
+            <div class="whoami">
+                <h2>Quem sou</h2>
+                <p>Olá, sou brasileiro, natural do Rio de Janeiro, um homem cisgênero nascido em agosto de 1980. Minha jornada no desenvolvimento teve início aos 14 anos, inicialmente como um hobby que rapidamente evoluiu para uma carreira profissional aos 16 anos.</p>
+                <p class="mm hidden">Meus primeiros passos foram dados na programação BASIC, seguidos por incursões em linguagens como Pascal, Clipper e COBOL. A ascensão da internet marcou uma transição significativa em minha trajetória, levando-me a explorar HTML, CSS e JavaScript. Ao longo desse período, adquiri experiência em CGI, Perl e outras tecnologias associadas à web.</p>
+                <p class="mm hidden">Aprimorei minhas habilidades na programação desktop com VB (Visual Basic) e continuei a me aprimorar no desenvolvimento web com ASP Classic. Com o advento da plataforma .NET, iniciei minha jornada com a linguagem C# desde seus estágios iniciais. Até hoje, mantenho-me envolvido na produção de softwares, explorando diversas arquiteturas de soluções.</p>
+                <p class="mm hidden">Minha paixão pela programação, aliada à minha vasta experiência, me impulsiona a buscar constantemente inovação e excelência na criação de soluções tecnológicas. Estou comprometido em enfrentar desafios e contribuir para o avanço contínuo no mundo do desenvolvimento de software.</p>
+                <a href="#" class="glass more-or-less" onclick="Accessibility.toggleParagraphs('whoami', event)">[+] Ver mais</a>
+                <a href="#" class="glass less" onclick="Accessibility.decreaseFontSize('whoami')"><i class="fas fa-search-minus"></i></a>
+                <a href="#" class="glass more" onclick="Accessibility.increaseFontSize('whoami')"><i class="fas fa-search-plus"></i></a>
+            </div>
+        </section>
+        <section>
+            <div class="skills">
+                <h2>Habilidades</h2>
+                <ul class="skills-list">
+                    <li>
+                        <section class="skill-box">
+                            <h3>Desenvolvimento</h3>
+                            <img src="./images/dev.png" alt="Desenvolvimento">
+                            <h4>Desenvolvimento de Software</h4>
+                            <p>Conheça meu expertise em C#, JavaScript e mais. Utilizo ASP.NET, .NET Core, e aplico boas práticas como Design Patterns e SOLID para criar código limpo e eficiente. Conheça também ferramentas como Visual Studio e VS Code que impulsionam meu desenvolvimento.</p>
+                            <a id="Desenvolvimento" onclick="openModal(event.target); return false;">Saiba Mais</a>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="skill-box">
+                            <h3>Arquitetura</h3>
+                            <img src="./images/arq.png" alt="Arquitetura">
+                            <h4>Subtítulo da Habilidade 2</h4>
+                            <p>Breve descrição da Habilidade 2.</p>
+                            <a id="Arquitetura" onclick="openModal(event.target); return false;">Saiba Mais</a>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="skill-box">
+                            <h3>Soluções</h3>
+                            <img src="./images/dev.png" alt="Desenvolvimento">
+                            <h4>Subtítulo da Habilidade 2</h4>
+                            <p>Breve descrição da Habilidade 2.</p>
+                            <a id="Solucoes" onclick="openModal(event.target); return false;">Saiba Mais</a>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="skill-box">
+                            <h3>Infraestrura</h3>
+                            <img src="./images/dev.png" alt="Desenvolvimento">
+                            <h4>Subtítulo da Habilidade 2</h4>
+                            <p>Breve descrição da Habilidade 2.</p>
+                            <a id="Infraestrura" onclick="openModal(event.target); return false;">Saiba Mais</a>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="skill-box">
+                            <h3>Projetos</h3>
+                            <img src="./images/dev.png" alt="Desenvolvimento">
+                            <h4>Subtítulo da Habilidade 2</h4>
+                            <p>Breve descrição da Habilidade 2.</p>
+                            <a id="Projetos" onclick="openModal(event.target); return false;">Saiba Mais</a>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="skill-box">
+                            <h3>Operações</h3>
+                            <img src="./images/dev.png" alt="Desenvolvimento">
+                            <h4>Subtítulo da Habilidade 2</h4>
+                            <p>Breve descrição da Habilidade 2.</p>
+                            <a id="Operacoes" onclick="openModal(event.target); return false;">Saiba Mais</a>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="skill-box">
+                            <h3>Stacks Atuais</h3>
+                            <img src="./images/dev.png" alt="Desenvolvimento">
+                            <h4>Subtítulo da Habilidade 2</h4>
+                            <p>Breve descrição da Habilidade 2.</p>
+                            <a id="StacksAtuais" onclick="openModal(event.target); return false;">Saiba Mais</a>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="skill-box">
+                            <h3>Carreira</h3>
+                            <img src="./images/dev.png" alt="Desenvolvimento">
+                            <h4>Subtítulo da Habilidade 2</h4>
+                            <p>Breve descrição da Habilidade 2.</p>
+                            <a id="Carreira" onclick="openModal(event.target); return false;">Saiba Mais</a>
+                        </section>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fabio Braga - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+<div id="Desenvolvimento_Modal" class="modal">
+    <div class="modal-content">
+        <span class="modal-title">Desenvolvimento</span>
+        <span class="close">&times;</span>
+        <p>Algum texto no modal..</p>
+    </div>
+</div>
+
+<div id="Arquitetura_Modal" class="modal">
+    <div class="modal-content">
+        <span class="modal-title">Desenvolvimento</span>
+        <span class="close">&times;</span>
+        <p>Algum texto no modal..</p>
+    </div>
+</div>
+
+<div id="Solucoes_Modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Algum texto no modal..</p>
+    </div>
+</div>
+
+<div id="Infraestrtura_Modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Algum texto no modal..</p>
+    </div>
+</div>
+
+<div id="Projetos_Modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Algum texto no modal..</p>
+    </div>
+</div>
+
+<div id="Operacoes_Modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Algum texto no modal..</p>
+    </div>
+</div>
+
+<div id="StacksAuais_Modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Algum texto no modal..</p>
+    </div>
+</div>
+
+<div id="Carreira_Modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Algum texto no modal..</p>
+    </div>
+</div>
+
+</html>
